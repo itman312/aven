@@ -1,7 +1,6 @@
 #! /bin/sh
 
-kill -9 $(pgrep webserver)
-cd ~/newweb/
-git pull https://github.com/itman312/newweb.git
-cd webserver/
-./webserver &
+kill -9 $(pgrep aven)
+cd /home/wys/aven/
+git pull https://github.com/itman312/aven.git
+./aven &
